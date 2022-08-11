@@ -1,0 +1,50 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgb(153, 211, 209);
+  width: 100vw;
+}
+.information{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.information input{
+  width: 300px;
+  height: 50px;
+  font-size: 20px;
+}
+button{
+  width: 300px;
+  height: 50px;
+  margin-top: 15px;
+}
+.employees{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+.employee{
+  width: 700px;
+  height: auto;
+  background-color: bisque;
+  border: 1px solid black;
+  margin: 10px;
+  display: flex;
+  padding: 10px;
+  font-family: 'Courier New', Courier, monospace;
+
+}
+.employee h3{
+  margin: 20px;
+}
+.final{
+  flex-direction: column;
+}
+.final button{
+  width: 100px;
+}
